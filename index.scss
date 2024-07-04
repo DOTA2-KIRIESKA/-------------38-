@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    .N1{
+        width: 100vw;
+        height: 560px;
+        background: url(https://s1.1zoom.ru/b5050/789/380341-svetik_3840x2400.jpg);
+        background: cover;
+        background-repeat: no-repeat;
+        .brooo{
+            position: absolute;
+            left: 550px;
+            top: 100px;
+            width: 700px;
+            .p1{
+                position: absolute;
+                left: 80px;
+                bottom: 90px;
+                font-size: 50px;
+                color: white;
+            }
+            .p2{
+                font-size: 20px;
+                color: white;
+            }
+            .button{
+                position: absolute;
+                left: 150px;
+                top: 130px;
+                width: 170px;
+                height: 50px;
+                border-radius: 25%;
+            }
+        }
+    }
+    .N2{
+        width: 450px;
+        position: absolute;
+        left: 570px;
+        .p3{
+            margin-left: 150px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .p4{
+            margin-top: 20px;
+        }
+    }
+}
